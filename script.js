@@ -41,7 +41,8 @@ function drawCircle(point, isLast, i) {
   c.setAttribute("r", 1)
   c.setAttribute("cx", point.x)
   c.setAttribute("cy", point.y)
-  c.setAttribute("fill", "white")
+  c.setAttribute("fill", "none")
+  c.setAttribute("stroke","none")
   if (isLast) c.setAttribute("fill", "red") 
   c.setAttribute("id", `C${i}`)
 
